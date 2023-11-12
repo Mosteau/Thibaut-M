@@ -7,9 +7,9 @@ function Projet2() {
     <h2>Projet - Radio World</h2>
       <p>Voici la Radio du monde en cours de projet, celle-ci sera construite sur REACT VITE avec une API, le résultat fin novembre 2023.</p>
       <div className='Images-RW'>
-            <img src={"src/images/radioworld1.png"} alt="Image" />
-            <img src={"src/images/radioworld2.png"} alt="Image" />
-            <img src={"src/images/radioworld3.png"} alt="Image" />          
+            <img src={"public/radioworld1.png"} alt="Image" />
+            <img src={"public/radioworld2.png"} alt="Image" />
+            <img src={"public/radioworld3.png"} alt="Image" />          
             </div>
     </div>
   );
