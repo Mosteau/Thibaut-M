@@ -12,9 +12,9 @@ function Projet1() {
             </p>
             <p><a href="https://titouangris.github.io/Spooky_Clicker/index.html">---Spookie Clicer---</a>🎃</p>
             <div className='Images-SP'>
-            <img src={"public/sp-index.png"} alt="Image" />
-            <img src={"public/sp-game.png"} alt="Image" />
-            <img src={"public/sp-shop.png"} alt="Image" />          
+            <img src={"public\sp-index.png"} alt="Image" />
+            <img src={"public\sp-game.png"} alt="Image" />
+            <img src={"public\sp-shop.png"} alt="Image" />          
             </div>
         </div>
     );
