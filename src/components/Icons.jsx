@@ -3,7 +3,7 @@ import React from 'react';
 function Icons() {
     return (
         <div className='icons'>
-            <img className='icon' src="../images/linux-logo.png" alt="linux" />
+            <img className='icon' src="public\linux-logo.png" alt="linux" />
             <img className='icon' src="../images/windows.png" alt="windows" />
             <img className='icon' src="../images/html.png" alt="html" />
             <img className='icon' src="../images/css.png" alt="css" />
