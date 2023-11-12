@@ -1,0 +1,22 @@
+
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-image: url('../images/background4.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+  }
+
+  
+
+  
+
+  @media (min-width: 738px) {
+    .column-container {
+      flex-direction: row; 
+    }
+  }

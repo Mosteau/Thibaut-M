@@ -1,0 +1,40 @@
+.icons {
+    padding: 10px;
+    display: flex;
+    height: auto;
+    
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: space-around;
+    margin: 10px;
+
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    animation-name: slideIn;
+    animation-duration: 2s;
+    animation-iteration-count: initial;
+    filter: drop-shadow(6px 6px 6px #666666);
+    filter: drop-shadow(6px 6px 6px #666666);
+
+    &:hover {
+        transform: scale(1.2); // Grossissement léger de 5% lors du survol
+        transition: transform 0.2s ease-in-out;
+    }
+
+    @keyframes slideIn {
+        0% {
+            transform: translate(-1000px, 0px);
+        }
+
+        50% {
+            transform: translate(200px, 0px);
+        }
+
+        100% {
+            transform: translate(0px, 0px);
+        }
+    }
+}
