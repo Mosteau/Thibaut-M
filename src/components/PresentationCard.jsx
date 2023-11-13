@@ -1,11 +1,8 @@
-import React from 'react';
-
-
 function PresentationCard() {
   return (
     <div className="presentation-card">
       <h2>Développeur Web FullStack</h2>
-      <p>
+      <p>{}
         Développeur web junior passionné, avec une expérience commerciale et une soif d'apprendre.
         <br />
         <br />
