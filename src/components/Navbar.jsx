@@ -1,4 +1,3 @@
-import React from 'react';
 
 function Navbar() {
   const handleContactClick = () => {
@@ -10,7 +9,7 @@ function Navbar() {
       <h1 className='title'>Thibaut.M</h1>
       <ul className="nav-list">
         <li className="nav-item"><a href="./">Portfolio</a></li>
-        <li className="nav-item"><a href="public/CV 2023.pdf" download="mon-cv.pdf">Mon CV</a></li>
+        <li className="nav-item"><a href="public/images/CV 2023.pdf" target="_blank">Mon CV</a></li>
         <li className="nav-item2" onClick={handleContactClick}>
           Contactez-moi
         </li>
