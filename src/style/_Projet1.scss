@@ -1,5 +1,3 @@
-// EducationCard.scss
-
 .projet-1 {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
@@ -8,7 +6,7 @@
   margin-right: 20%;
   margin-left: 20%;
   margin-bottom: 30px;
-  transition: transform 0.5s ease-in-out; // Ajoutez une transition pour l'effet de sortie avec une durée de 0.5 seconde et une fonction de temporisation
+  transition: transform 0.5s ease-in-out; 
 
   display: flex;
   flex-direction: column;

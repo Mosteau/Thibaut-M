@@ -1,4 +1,4 @@
-// PresentationCard.scss
+
 
 .presentation-card {
   background-color: rgba(255, 255, 255, 0.8);
@@ -9,13 +9,11 @@
   margin-right: 20%;
   margin-left: 20%;
   margin-bottom: 30px;
-  transition: transform 0.5s ease-in-out; // Ajoutez une transition pour l'effet de sortie avec une durée de 0.5 seconde et une fonction de temporisation
+  transition: transform 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: flex;
-  /* Centre le contenu horizontalement */
   justify-content: center;
-  /* Centre le contenu verticalement */
   user-select: none;
 
   h2 {
@@ -23,7 +21,6 @@
     margin-bottom: 10px;
     color:black;
     text-align: center;
-    /* Centre le texte à l'intérieur de h2 */
   }
 
   p {
@@ -33,6 +30,6 @@
   }
 
   &:hover {
-    transform: scale(1.01); // Grossissement léger de 5% lors du survol
+    transform: scale(1.01);
   }
 }

@@ -20,7 +20,7 @@
     filter: drop-shadow(6px 6px 6px #666666);
 
     &:hover {
-        transform: scale(1.2); // Grossissement léger de 5% lors du survol
+        transform: scale(1.2);
         transition: transform 0.2s ease-in-out;
     }
 
