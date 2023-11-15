@@ -1,5 +1,3 @@
-
-
 function Icons() {
     return (
         <div className='icons'>
