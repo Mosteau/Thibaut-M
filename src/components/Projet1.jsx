@@ -1,8 +1,20 @@
-
-
-
+import React, { useState } from 'react';
+import Modal from 'react-modal';
 
 function Projet1() {
+    const [modalIsOpen, setModalIsOpen] = useState(false);
+    const [selectedImage, setSelectedImage] = useState('');
+
+    const openModal = (imageSrc) => {
+        setSelectedImage(imageSrc);
+        setModalIsOpen(true);
+    };
+
+    const closeModal = () => {
+        setModalIsOpen(false);
+        setSelectedImage('');
+    };
+
     return (
         <div className="projet-1">
             <h2>Projet - Spookie Clicker</h2>
@@ -12,10 +24,61 @@ function Projet1() {
     `}</p>
             <p><a href="https://titouangris.github.io/Spooky_Clicker/index.html">---Spookie Clicer---</a>🎃</p>
             <div className='Images-SP'>
-            <img src="../images/sp-index.png" alt="Image" />
-            <img src="../images/sp-game.png" alt="Image" />
-            <img src="../images/sp-shop.png" alt="Image" />          
+                <img
+                    className="image-projets"
+                    src="../images/sp-index.png"
+                    alt="Image"
+                    onClick={() => openModal("../images/sp-index.png")}
+                />
+                <img
+                    className="image-projets"
+                    src="../images/sp-game.png"
+                    alt="Image"
+                    onClick={() => openModal("../images/sp-game.png")}
+                />
+                <img
+                    className="image-projets"
+                    src="../images/sp-shop.png"
+                    alt="Image"
+                    onClick={() => openModal("../images/sp-shop.png")}
+                />
             </div>
+
+            <Modal
+                isOpen={modalIsOpen}
+                onRequestClose={closeModal}
+                contentLabel="Image Modal"
+                ariaHideApp={false}
+                style={{
+                    overlay: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)'
+                    }
+                }}
+            >
+                <button role="button" className="button-modale" onClick={closeModal}>Fermer</button>
+                {selectedImage && (
+                    <div
+                        style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            height: '100%'
+                        }}
+                    >
+                        <img
+                            src={selectedImage}
+                            alt="Image agrandie"
+                            style={{
+                                maxWidth: '100%',
+                                maxHeight: '100%',
+                                objectFit: 'contain',
+                                border: 'none',
+                                outline: 'none'
+                            }}
+                        />
+                    </div>
+                )}
+            </Modal>
         </div>
     );
 }
