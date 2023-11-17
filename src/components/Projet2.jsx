@@ -18,6 +18,7 @@ function Projet2() {
         <div className="projet-2">
             <h2>Projet - Radio World</h2>
             <p>Voici la Radio du monde en cours de projet, celle-ci sera construite sur REACT VITE avec une API, le résultat fin novembre 2023.</p>
+             <p><a href="https://radioworld.vercel.app/">---Radio World---</a>🎙️</p>
             <div className='Images-RW'>
                 <img
                     className="image-projets"
