@@ -1,13 +1,14 @@
 .custom-modal {
     &__overlay {
-        background-color: rgba(212, 48, 48, 0.8);
+        background-color: rgba(186, 178, 178, 0.8);
     }
 
     &__content {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 80%;
+        height: 100%;
+        width: 100%;
 
         img {
             max-width: 100%;
