@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit:wght@500&display=swap');
+
+
+
 .projet-1 {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 6px 8px rgba(9, 9, 9, 0.683);
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 20%;
+  margin-left: 20%;
   margin-bottom: 30px;
   transition: transform 0.5s ease-in-out; 
 
@@ -15,12 +19,14 @@
   user-select: none;
 
   h2 {
+    font-family:Kanit;
     font-size: 1.5em;
     margin-bottom: 10px;
     text-align: center;
     }
 
   p {
+    font-family:Kanit  ;
     padding: 10px;
     text-align: justify;
   }
@@ -45,4 +51,58 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 15px;
+}
+
+@media (max-width: 738px) {
+  .projet-1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 8px rgba(9, 9, 9, 0.683);
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    transition: transform 0.5s ease-in-out; 
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+  
+    h2 {
+      font-family:Kanit;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      text-align: center;
+      }
+  
+    p {
+      font-family:Kanit  ;
+      padding: 10px;
+      text-align: justify;
+    }
+  
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+  
+  .Images-SP {
+    margin: 5 5 5 5;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:10px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  
 }

@@ -22,25 +22,25 @@ function Projet1() {
 
                 Pour la réalisation, nous avons travaillé à cinq sur le projet et utilisé les langages suivants : HTML, CSS et JavaScript pour la partie clic, Shop, animations et modales. La partie responsive a été faite pour joué sur smartphone.
     `}</p>
-            <p><a href="https://spookie-clicker.vercel.app" target="_blank">---Spookie Clicer---</a>🎃</p>
+            <p><a href="https://spookie-clicker.vercel.app" rel="noreferrer" target="_blank">---Spookie Clicer---</a>🎃</p>
             <div className='Images-SP'>
                 <img
                     className="image-projets"
-                    src="/images/sp-index.png"
+                    src="/sp-index.jpg"
                     alt="Image"
-                    onClick={() => openModal("../images/sp-index.jpg")}
+                    onClick={() => openModal("/sp-index.jpg")}
                 />
                 <img
                     className="image-projets"
-                    src="/images/sp-game.png"
+                    src="/sp-game.jpg"
                     alt="Image"
-                    onClick={() => openModal("../images/sp-game.jpg")}
+                    onClick={() => openModal("/sp-game.jpg")}
                 />
                 <img
                     className="image-projets"
-                    src="/images/sp-shop.png"
+                    src="/sp-shop.jpg"
                     alt="Image"
-                    onClick={() => openModal("../images/sp-shop.jpg")}
+                    onClick={() => openModal("/sp-shop.jpg")}
                 />
             </div>
 

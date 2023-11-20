@@ -18,25 +18,25 @@ function Projet2() {
         <div className="projet-2">
             <h2>Projet - Radio World</h2>
             <p>Voici la Radio du monde, celle-ci est construite sur base REACT avec javascript, deux API sont utilisées pour la radio et la partie météo.</p>
-             <p><a href="https://radioworld.vercel.app/" target="_blank">---Radio World---</a>🎙️</p>
+            <p><a href="https://radioworld.vercel.app/" rel="noreferrer" target="_blank">---Radio World---</a>🎙️</p>
             <div className='Images-RW'>
                 <img
                     className="image-projets"
-                    src="../images/radioworld1.png"
+                    src="/radioworld1.jpg"
                     alt="Image"
-                    onClick={() => openModal("../images/radioworld1.jpg")}
+                    onClick={() => openModal("/radioworld1.jpg")}
                 />
                 <img
                     className="image-projets"
-                    src="../images/radioworld2.png"
+                    src="/radioworld2.jpg"
                     alt="Image"
-                    onClick={() => openModal("../images/radioworld2.jpg")}
+                    onClick={() => openModal("/radioworld2.jpg")}
                 />
                 <img
                     className="image-projets"
-                    src="../images/radioworld3.png"
+                    src="/radioworld3.jpg"
                     alt="Image"
-                    onClick={() => openModal("public/images/radioworld3.jpg")}
+                    onClick={() => openModal("/radioworld3.jpg")}
                 />
             </div>
 

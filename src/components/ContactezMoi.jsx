@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ContactezMoi = () => {
   const handleContactClick = () => {
     window.location.href = 'mailto:thibaut.mosteau@gmail.com';
