@@ -41,40 +41,24 @@ function Projet2() {
             </div>
 
             <Modal
-                isOpen={modalIsOpen}
-                onRequestClose={closeModal}
-                contentLabel="Image Modal"
-                ariaHideApp={false}
-                style={{
-                    overlay: {
-                        backgroundColor: 'rgba(0, 0, 0, 0.8)'
-                    }
-                }}
-            >
-                <button role="button" className="button-modale" onClick={closeModal}>Fermer</button>
-                {selectedImage && (
-                    <div
-                        style={{
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            height: '100%'
-                        }}
-                    >
-                        <img
-                            src={selectedImage}
-                            alt="Image agrandie"
-                            style={{
-                                maxWidth: '100%',
-                                maxHeight: '100%',
-                                objectFit: 'contain',
-                                border: 'none',
-                                outline: 'none'
-                            }}
-                        />
-                    </div>
-                )}
-            </Modal>
+    isOpen={modalIsOpen}
+    onRequestClose={closeModal}
+    contentLabel="Image Modal"
+    ariaHideApp={false}
+    className="custom-modal" // Ajoutez la classe CSS personnalisée ici
+>
+    <button role="button" className="button-modale" onClick={closeModal}>
+        Fermer
+    </button>
+    {selectedImage && (
+        <div className="custom-modal__content">
+            <img
+                src={selectedImage}
+                alt="Image agrandie"
+            />
+        </div>
+    )}
+</Modal>
         </div>
     );
 }
