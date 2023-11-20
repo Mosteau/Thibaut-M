@@ -26,21 +26,21 @@ function Projet1() {
             <div className='Images-SP'>
                 <img
                     className="image-projets"
-                    src="../images/sp-index.png"
+                    src="/images/sp-index.png"
                     alt="Image"
-                    onClick={() => openModal("../images/sp-index.png")}
+                    onClick={() => openModal("../images/sp-index.jpg")}
                 />
                 <img
                     className="image-projets"
-                    src="../images/sp-game.png"
+                    src="/images/sp-game.png"
                     alt="Image"
-                    onClick={() => openModal("../images/sp-game.png")}
+                    onClick={() => openModal("../images/sp-game.jpg")}
                 />
                 <img
                     className="image-projets"
-                    src="../images/sp-shop.png"
+                    src="/images/sp-shop.png"
                     alt="Image"
-                    onClick={() => openModal("../images/sp-shop.png")}
+                    onClick={() => openModal("../images/sp-shop.jpg")}
                 />
             </div>
 

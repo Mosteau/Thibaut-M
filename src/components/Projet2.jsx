@@ -23,19 +23,19 @@ function Projet2() {
                     className="image-projets"
                     src="../images/radioworld1.png"
                     alt="Image"
-                    onClick={() => openModal("../images/radioworld1.png")}
+                    onClick={() => openModal("../images/radioworld1.jpg")}
                 />
                 <img
                     className="image-projets"
                     src="../images/radioworld2.png"
                     alt="Image"
-                    onClick={() => openModal("../images/radioworld2.png")}
+                    onClick={() => openModal("../images/radioworld2.jpg")}
                 />
                 <img
                     className="image-projets"
                     src="../images/radioworld3.png"
                     alt="Image"
-                    onClick={() => openModal("../images/radioworld3.png")}
+                    onClick={() => openModal("public/images/radioworld3.jpg")}
                 />
             </div>
 

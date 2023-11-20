@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 function PresentationCard() {
   return (
     <div className="presentation-card">
