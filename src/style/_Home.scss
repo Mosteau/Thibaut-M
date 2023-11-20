@@ -1,28 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit:wght@500&display=swap');
 
 
-*{
-  Box-sizing : border-box ;
-  Margin :0 ;
-  Padding :0 ;
-  }
+* {
+  Box-sizing: border-box;
+  Margin: 0;
+  Padding: 0;
+
+}
+
+.animated-item {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
 
 
 .home {
   margin: auto;
   box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
-    background-image: url('/background4.jpg');
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-  } 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-image: url('/background4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-  @media (min-width: 738px) {
-    .column-container {
-      flex-direction: row; 
-    }
+@media (min-width: 738px) {
+  .column-container {
+    flex-direction: row;
   }
+}
