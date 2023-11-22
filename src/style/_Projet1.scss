@@ -5,12 +5,12 @@
 .projet-1 {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 0 6px 8px rgba(9, 9, 9, 0.683);
   margin-right: 20%;
   margin-left: 20%;
   margin-bottom: 30px;
-  transition: transform 0.5s ease-in-out; 
+  transition: transform 0.2s ease-in-out;
 
   display: flex;
   flex-direction: column;
@@ -55,14 +55,14 @@ img {
 
 @media (max-width: 738px) {
   .projet-1 {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 6px 8px rgba(9, 9, 9, 0.683);
     margin-right: 10%;
     margin-left: 10%;
     margin-bottom: 30px;
-    transition: transform 0.5s ease-in-out; 
+    transition: transform 0.2s ease-in-out;
   
     display: flex;
     flex-direction: column;

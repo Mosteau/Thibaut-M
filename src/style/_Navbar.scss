@@ -2,15 +2,16 @@
 
 
 .navbar {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(136, 85, 85, 0.8);
   padding: 10px;
   transition: background-color 0.5s;
   z-index: 1;
   display: flex;
   justify-content: space-between;
 
+
   .title {
-    color: #000;
+    color: #0d0c0c;
     font-family: Kanit;
     cursor: pointer;
     position: relative;
@@ -66,7 +67,7 @@
 }
 
 .nav-item2 {
-  font-family:Kanit;
+  font-family: Kanit;
   text-decoration: none;
   font-size: 1.2em;
   color: rgb(0, 0, 0);
@@ -95,7 +96,7 @@
       font-family: Kanit;
       cursor: pointer;
       position: relative;
-      transition: transform 0.5s ease-in-out;
+      transition: transform 0.2s ease-in-out;
       user-select: none;
 
       &:before {
@@ -105,7 +106,7 @@
         position: absolute;
         transform: scaleX(0);
         transform-origin: right;
-        transition: transform 0.5s ease-in-out;
+        transition: transform 0.2s ease-in-out;
         z-index: -1;
       }
 
@@ -134,7 +135,7 @@
           text-decoration: none;
           font-size: 1.2em;
           color: rgb(0, 0, 0);
-          transition: font-size 0.4s, color 0.3s;
+          transition: font-size 0.2s, color 0.3s;
 
           &:hover {
             font-size: 1.3em;
@@ -151,7 +152,7 @@
     text-decoration: none;
     font-size: 1.2em;
     color: rgb(0, 0, 0);
-    transition: font-size 0.4s, color 0.3s;
+    transition: font-size 0.2s, color 0.3s;
     cursor: pointer;
 
 
@@ -160,5 +161,17 @@
       color: hsl(45 100% 70%);
       text-decoration: solid;
     }
+  }
+}
+
+.logo-git {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  filter: drop-shadow(6px 6px 6px #d5d5d5);
+
+  &:hover {
+      transform: scale(1.1);
+      transition: transform 0.2s ease-in-out;
   }
 }

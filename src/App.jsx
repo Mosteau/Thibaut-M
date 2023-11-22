@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar.jsx'
 import Home from './components/Home.jsx';
-import Footer from './components/Footer.jsx'; // Ajoutez l'import du pied de page
+import Footer from './components/Footer.jsx';
 
 
 
@@ -11,7 +11,7 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <Footer /> {/* Incluez le composant du pied de page ici */}
+      <Footer />
     </div>
   );
 }

@@ -17,24 +17,23 @@
     animation-duration: 2s;
     animation-iteration-count: initial;
     filter: drop-shadow(6px 6px 6px #666666);
-    filter: drop-shadow(6px 6px 6px #666666);
 
     &:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
         transition: transform 0.2s ease-in-out;
     }
 
-    @keyframes slideIn {
-        0% {
-            transform: translate(-1000px, 0px);
-        }
+    // @keyframes slideIn {
+    //     0% {
+    //         transform: translate(-1000px, 0px);
+    //     }
 
-        50% {
-            transform: translate(200px, 0px);
-        }
+    //     50% {
+    //         transform: translate(200px, 0px);
+    //     }
 
-        100% {
-            transform: translate(0px, 0px);
-        }
-    }
+    //     100% {
+    //         transform: translate(0px, 0px);
+    //     }
+    // }
 }

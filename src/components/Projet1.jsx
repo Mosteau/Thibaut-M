@@ -49,7 +49,7 @@ function Projet1() {
     onRequestClose={closeModal}
     contentLabel="Image Modal"
     ariaHideApp={false}
-    className="custom-modal" // Ajoutez la classe CSS personnalisée ici
+    className="custom-modal"
 >
     <button role="button" className="button-modale" onClick={closeModal}>
         Fermer

@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 function Projet3() {
   return (
     <div className="projet-3">
