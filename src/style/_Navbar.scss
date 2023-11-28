@@ -27,7 +27,7 @@
       position: absolute;
       transform: scaleX(0);
       transform-origin: right;
-      transition: transform 0.5s ease-in-out;
+      transition: transform 0.3s ease-in-out;
       z-index: -1;
     }
 
@@ -56,10 +56,10 @@
         text-decoration: none;
         font-size: 1.2em;
         color: rgb(0, 0, 0);
-        transition: font-size 0.4s, color 0.3s;
+        transition: font-size 0.3s, color 0.3s;
 
         &:hover {
-          font-size: 1.2em;
+          font-size: 1.3em;
           color: hsl(45 100% 70%);
           text-decoration: solid;
         }
