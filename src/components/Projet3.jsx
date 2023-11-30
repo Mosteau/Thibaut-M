@@ -26,19 +26,19 @@ function Projet3() {
           className="image-projets3"
           src="/picturefi1.png"
           alt="Image"
-          onClick={() => openModal("/radioworld1.jpg")}
+          onClick={() => openModal("/picturefi1.png")}
         />
         <img
           className="image-projets3"
           src="/picturefi2.png"
           alt="Image"
-          onClick={() => openModal("/radioworld2.jpg")}
+          onClick={() => openModal("/picturefi2.png")}
         />
         <img
           className="image-projets3"
           src="/picturefi3.png"
           alt="Image"
-          onClick={() => openModal("/radioworld3.jpg")}
+          onClick={() => openModal("/picturefi3.png")}
         />
       </div>
 
