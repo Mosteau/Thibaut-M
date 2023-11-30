@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit:wght@500&display=swap');
+
+.bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 10px;
+}
+
+.bm-burger-bars {
+    background: rgb(0, 0, 0);
+}
+
+
+.bm-cross {
+    background: rgb(255, 255, 255);
+}
+
+.bm-morph-shape {
+    fill: black;
+    opacity: 0.8;
+}
+
+.bm-item-list {
+    color: #ffffff;
+}
+
+.bm-item {
+    display: inline-block;
+}
+
+.bm-overlay {
+    background: none !important;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-item,
+.nav-item2,
+.nav-item3 {
+    margin-left: 20px;
+    font-family: Kanit;
+
+}
+
+
+.logo-git {
+    width: 30px;
+    height: 30px;
+    margin-left: 50%;
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit:wght@500&display=swap');
+
+.bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 10px;
+}
+
+.bm-burger-bars {
+    background: rgb(0, 0, 0);
+}
+
+
+.bm-cross {
+    background: rgb(255, 255, 255);
+}
+
+.bm-morph-shape {
+    fill: black;
+    opacity: 0.8;
+}
+
+.bm-item-list {
+    color: #ffffff;
+}
+
+.bm-item {
+    display: inline-block;
+}
+
+.bm-overlay {
+    background: none !important;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-item,
+.nav-item2,
+.nav-item3 {
+    margin-left: 20px;
+    font-family: Kanit;
+
+}
+
+
+.logo-git {
+    width: 30px;
+    height: 30px;
+    margin-left: 50%;
+    transition: transform 0.1s ease-in-out, color 0.2s ease-in-out;
+
+}
+
+.logo-git:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    color: hsl(45 100% 70%);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-top: 60px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-family: Kanit;
+    transition: transform 0.1s ease-in-out, color 0.2s ease-in-out;
+
+}
+
+a:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    color: hsl(45 100% 70%);
+  }
+
+
+    transition: transform 0.1s ease-in-out, color 0.2s ease-in-out;
+
+}
+
+.logo-git:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-top: 60px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-family: Kanit;
+    transition: transform 0.1s ease-in-out, color 0.2s ease-in-out;
+
+}
+
+a:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    color: hsl(45 100% 70%);
+  }
+

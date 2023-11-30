@@ -1,193 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit:wght@500&display=swap');
-
-
 .navbar {
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 5px 10px -2px #232528;
-  padding: 10px;
-  transition: background-color 0.5s;
-  z-index: 1;
+  height: 50px;
+  padding-bottom: 5px;
   display: flex;
   justify-content: space-between;
-
-
-  .title {
-    color: #0d0c0c;
-    font-family: Kanit;
-    cursor: pointer;
-    position: relative;
-    transition: transform 0.5s ease-in-out;
-    user-select: none;
-    font-size: 1.6rem;
-
-    &:before {
-      background: hsl(45 100% 70%);
-      content: "";
-      inset: 0;
-      position: absolute;
-      transform: scaleX(0);
-      transform-origin: right;
-      transition: transform 0.3s ease-in-out;
-      z-index: -1;
-    }
-
-    &:hover {
-      transform: scale(1.1);
-    }
-
-    &:hover::before {
-      transform: scaleX(1);
-      transform-origin: left;
-    }
-  }
-
-  ul {
-    position: center;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-
-    .nav-item {
-      margin: 0 10px;
-      color: white;
-
-      a {
-        font-family: Kanit;
-        text-decoration: none;
-        font-size: 1.2em;
-        color: rgb(0, 0, 0);
-        transition: font-size 0.3s, color 0.3s;
-
-        &:hover {
-          font-size: 1.3em;
-          color: hsl(45 100% 70%);
-          text-decoration: solid;
-        }
-      }
-    }
-  }
 }
 
-.nav-item2 {
-  font-family: Kanit;
-  text-decoration: none;
-  font-size: 1.2em;
-  color: rgb(0, 0, 0);
-  transition: font-size 0.4s, color 0.3s;
+.titre-presentation {
+  font-family: "Kanit";
+  font-size: 1.5rem;
+  margin-right: 20px;
+  margin-top: 5px;
   cursor: pointer;
+  user-select: none;
+  transition: transform 0.5s ease-in-out;
+
+  &:before {
+    background: hsl(45 100% 70%);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.2s ease-in-out;
+    z-index: -1;
+  }
 
   &:hover {
-    font-size: 1.3em;
-    color: hsl(45 100% 70%);
-    text-decoration: solid;
+    transform: scale(1.1);
+  }
+
+  &:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
   }
 }
-
-.logo-git {
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  filter: drop-shadow(6px 6px 6px #d5d5d5);
-
-  &:hover {
-      transform: scale(1.1);
-      transition: transform 0.2s ease-in-out;
-  }
-}
-
-@media (max-width: 738px) {
-  .navbar {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    transition: background-color 0.5s;
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-
-    .title {
-      font-size: 1.2rem;
-      color: #000;
-      font-family: Kanit;
-      cursor: pointer;
-      position: relative;
-      transition: transform 0.2s ease-in-out;
-      user-select: none;
-
-      &:before {
-        background: hsl(45 100% 70%);
-        content: "";
-        inset: 0;
-        position: absolute;
-        transform: scaleX(0);
-        transform-origin: right;
-        transition: transform 0.2s ease-in-out;
-        z-index: -1;
-      }
-
-      &:hover {
-        transform: scale(1.1);
-      }
-
-      &:hover::before {
-        transform: scaleX(1);
-        transform-origin: left;
-      }
-    }
-
-    ul {
-      position: center;
-      list-style: none;
-      display: flex;
-      justify-content: center;
-
-      .nav-item {
-        margin: 0 10px;
-        color: white;
-
-        a {
-          font-family: Kanit;
-          text-decoration: none;
-          font-size: 1.1em;
-          color: rgb(0, 0, 0);
-          transition: font-size 0.2s, color 0.3s;
-
-          &:hover {
-            font-size: 1.2em;
-            color: hsl(45 100% 70%);
-            text-decoration: solid;
-          }
-        }
-      }
-    }
-  }
-
-  .nav-item2 {
-    font-family: Kanit;
-    text-decoration: none;
-    font-size: 1.1em;
-    color: rgb(0, 0, 0);
-    transition: font-size 0.2s, color 0.3s;
-    cursor: pointer;
-
-
-    &:hover {
-      font-size: 1.2em;
-      color: hsl(45 100% 70%);
-      text-decoration: solid;
-    }
-  }
-
-  .logo-git {
-    width: 1.8rem;
-    height: 1.7rem;
-    cursor: pointer;
-    filter: drop-shadow(6px 6px 6px #d5d5d5);
-    padding-left: 10%;
-  
-    &:hover {
-        transform: scale(1.1);
-        transition: transform 0.2s ease-in-out;
-    }
-  }
-}
-

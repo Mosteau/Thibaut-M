@@ -33,14 +33,26 @@
   }
 }
 
+.liens-sites {
+  color: black;
+  text-decoration: none;
+  font-family: Kanit;
+  font-size: 1.5em;
+  transition: font-size 0.2s ease;
+
+  &:hover {
+    font-size: 1.7em;
+  }
+}
+
 @media (max-width: 738px) {
   .projet-3 {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     box-shadow: 0 6px 8px rgba(9, 9, 9, 0.683);
     margin-top: 30px;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
     margin-bottom: 30px;
     transition: transform 0.2s ease-in-out;
 
