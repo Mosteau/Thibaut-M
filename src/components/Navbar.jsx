@@ -3,7 +3,7 @@ import { bubble as Menu } from 'react-burger-menu';
 
 function Navbar() {
   const handleContactClick = () => {
-    window.location.href = 'mailto:votreadressemail@example.com';
+    window.location.href = 'mailto:thibaut.mosteau@gmail.com';
   };
 
   return (
