@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { Helmet } from 'react-helmet';
 import PresentationCard from './PresentationCard';
 import Projet1 from './Projet1.jsx';
 import Projet2 from './Projet2.jsx';
@@ -28,6 +29,10 @@ function Home() {
 
   return (
     <div className="home">
+      <Helmet>
+        <title>Thibaut Mosteau - Portfolio de Développeur Web</title>
+        <meta name="description" content="Bienvenue sur le portfolio de Thibaut Mosteau, développeur web spécialisé en React, JavaScript, HTML, CSS, SQL et Node.js. Explorez mes projets, découvrez mes compétences et ma passion pour le développement web. Contactez-moi pour discuter de votre projet." />
+      </Helmet>
       <div className="column-container">
         <div className={`animated-item ${showPresentationCard ? 'fade-in' : ''}`} ref={presentationCardRef}>
           {showPresentationCard && <PresentationCard />}
