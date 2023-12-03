@@ -47,6 +47,9 @@ function Home() {
           {showProjet3 && <Projet3 />}
         </div>
       </div>
+      <button title="Top"className="scroll-top" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+  ↑
+</button>
     </div>
   );
 }

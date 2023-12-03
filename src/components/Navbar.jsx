@@ -6,14 +6,14 @@ function Navbar() {
   const handleContactClick = () => {
     window.location.href = 'mailto:thibaut.mosteau@gmail.com';
   };
-  
+
 
   return (
     <div>
       <nav className="navbar">
         <Menu width={300}>
           <a href="https://github.com/Mosteau" rel="noreferrer" target="_blank">
-            <img className="logo-git" src="/logo-github.png" alt="GitHub" />
+            <img className="logo-git" src="/logo-github.png" alt="GitHub" title=" Mosteau - GitHub" />
           </a>
           <Link
             activeClass="active"

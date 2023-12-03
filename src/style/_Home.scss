@@ -23,3 +23,19 @@
     flex-direction: row;
   }
 }
+
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  &:hover {
+ transform: scale(1.1);
+        transition: transform 0.2s ease-in-out;
+  }
+
+}
