@@ -17,17 +17,17 @@
   user-select: none;
 
   h2 {
-    font-family:Kanit;
+    font-family: Kanit;
     font-size: 1.5em;
     margin-bottom: 10px;
-    color:black;
+    color: black;
     text-align: center;
   }
 
   p {
-    font-family:Kanit;
-    padding : 10px;
-    color:black;
+    font-family: Kanit;
+    padding: 10px;
+    color: black;
     text-align: justify;
   }
 
@@ -35,6 +35,8 @@
     transform: scale(1.01);
   }
 }
+
+
 
 @media (max-width: 738px) {
   .presentation-card {
@@ -51,22 +53,22 @@
     align-items: flex;
     justify-content: center;
     user-select: none;
-  
+
     h2 {
-      font-family:Kanit;
+      font-family: Kanit;
       font-size: 1.5em;
       margin-bottom: 10px;
-      color:black;
+      color: black;
       text-align: center;
     }
-  
+
     p {
-      font-family:Kanit;
-      padding : 10px;
-      color:black;
+      font-family: Kanit;
+      padding: 10px;
+      color: black;
       text-align: justify;
     }
-  
+
     &:hover {
       transform: scale(1.01);
     }

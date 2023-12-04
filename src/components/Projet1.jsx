@@ -22,7 +22,7 @@ function Projet1() {
 
                 Pour la réalisation, nous avons travaillé à cinq sur le projet et utilisé les langages suivants : HTML, CSS et JavaScript pour la partie clic, Shop, animations et modales. La partie responsive a été faite pour joué sur smartphone.
     `}</p>
-            <p><a className="liens-sites"href="https://spookie-clicker.vercel.app" rel="noreferrer" target="_blank">---Spookie Clicer---</a>🎃</p>
+            <p><a className="liens-sites"href="https://spookie-clicker.vercel.app" rel="noreferrer" target="_blank">---Spookie Clicker---</a>🎃</p>
             <div className='Images-SP'>
                 <img
                     className="image-projets"
