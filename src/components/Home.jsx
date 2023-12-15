@@ -22,7 +22,7 @@ function Home() {
       setShowProjet1(true);
       setShowProjet2(true);
       setShowProjet3(true);
-    }, 500);
+    }, 100);
 
     return () => clearTimeout(timeout);
   }, []);

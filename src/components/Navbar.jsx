@@ -23,10 +23,10 @@ function Navbar() {
             offset={-10}
             duration={500}
           >
-            Présentation
+            Presentation
           </Link>
-          <a className="text-menu-burger" href="/CV2023.pdf" target="_blank">Mon CV</a>
-          <a className="text-menu-burger" onClick={handleContactClick}>Contactez-moi</a>
+          <a className="text-menu-burger" href="/CV2023.pdf" target="_blank">My CV</a>
+          <a className="text-menu-burger" onClick={handleContactClick}>Contact me</a>
           <Link
             activeClass="active"
             to="projet-1"
@@ -35,7 +35,7 @@ function Navbar() {
             offset={-10}
             duration={500}
           >
-            Projet 1 - Spooky Clicker
+            Project 1 - Spooky Clicker
           </Link>
           <Link
             activeClass="active"
@@ -45,7 +45,7 @@ function Navbar() {
             offset={-10}
             duration={500}
           >
-            Projet 2 - Radion World
+            Project 2 - Radio World
           </Link>
           <Link
             activeClass="active"
@@ -55,7 +55,7 @@ function Navbar() {
             offset={-10}
             duration={500}
           >
-            Projet 3 - Famille Inalti
+            Project 3 - Famille Inalti
           </Link>
         </Menu>
         <h1 className='titre-presentation'>Thibaut.M</h1>

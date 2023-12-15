@@ -3,11 +3,17 @@ import Icons from "./Icons";
 function PresentationCard() {
   return (
     <div className="presentation-card">
-      <h2>Développeur Web FullStack</h2>
-      <p>Je suis un développeur web et mobile avec une passion pour la création de solutions numériques innovantes. Ma formation commerciale m{"'"}a donné une compréhension approfondie des besoins des clients, et ma soif d{"'"}apprendre me permet de rester à la pointe des dernières technologies.
+      <h2>FullStack Web Developer</h2>
+      <p>
+        I am a web and mobile developer with a passion for creating innovative
+        digital solutions. My business training has given me a deep
+        understanding of customer needs, and my thirst for learning allows me to
+        stay at the forefront of the latest technologies.
         <br />
-        <br />
-        Je suis actuellement en train de terminer ma certification de développeur web et mobile à la Wild Code School. Je suis impatient de mettre mes compétences et mon expérience au service d{"'"}une entreprise humaine, où je pourrai contribuer à des projets passionnants.
+        <br />I am currently finishing my web and mobile developer certification
+        at Wild Code School. I am eager to put my skills and experience to work
+        for a human-centered company, where I can contribute to exciting
+        projects.
       </p>
       <Icons />
     </div>
@@ -15,5 +21,3 @@ function PresentationCard() {
 }
 
 export default PresentationCard;
-
-
