@@ -28,11 +28,11 @@
   position: fixed;
   bottom: 20px;
   right: 10px;
-  background-color: #000;
-  color: #fff;
+  color: #000000;
   border: none;
   padding: 10px;
   cursor: pointer;
+  border-radius: 40px;
 
   &:hover {
     transform: scale(1.1);
